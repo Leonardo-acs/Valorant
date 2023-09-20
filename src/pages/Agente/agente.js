@@ -15,7 +15,7 @@ export default function Agente(props) {
             <div className='agentInfosRole-role'>
                 <div className='agentInfos-Role-Infos'>
                     <h2>{state?.role.displayName}</h2>
-                    <img src={state?.role.displayIcon} alt='função icone'></img>
+                    <img src={state?.role.displayIcon} alt='função icone' loading="lazy"></img>
                 </div>
                 <h1>{state?.displayName}</h1>
                 <div className='agentInfos-Skills'>
