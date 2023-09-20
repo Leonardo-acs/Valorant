@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+
+.agentesContainer {
+    background-color: #ff4655;
+    min-height: 100vh;
+}
+
+.agentWrapper {
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    justify-content: flex-start;
+}
+
+.agentButton {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    .agentImage {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        border: 1px solid #333;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+.agentButton:hover {
+    transform: translateY(-8px);
+    background-color: #ece8e1;
+}
+
+.agentesContainer-filter {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    .agentsContainer-filter-list {
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+        margin: 12px;
+        border: 1px solid #ffffff;
+        li {
+            margin: 12px;
+            width: 100%;
+            font-size: 18px;
+        }
+    }
+}

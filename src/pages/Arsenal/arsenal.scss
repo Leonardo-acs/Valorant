@@ -1,0 +1,41 @@
+.weapons-container {
+    display: flex;
+    background-color: #ece8e1;
+    padding: 50px;
+}
+
+
+.weapons-container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.weapon {
+    width: 30%;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 0.5px solid #333;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .weapon-name {
+        font-family: fantasy;
+        text-transform: uppercase;
+        font-size: 28px;
+        margin-bottom: 12px;
+    }
+
+    .weapon-image {
+        width: 100%;
+        height: auto;
+        max-height: 128px;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+}

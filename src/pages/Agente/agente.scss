@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Tungsten:wght@700&display=swap');
+
+
+.agentInfosContainer {
+    background-color: #ff5252;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    height: 87.5vh;
+}
+
+.agentInfos {
+    display: flex;
+    width: 80%;
+    max-width: 100%;
+    height: 87.5vh;
+    margin-left: 2.5rem;
+
+    img {
+        margin-bottom: 12px;
+    }
+
+}
+
+.agenteInfos-agentImage {
+    position: absolute;
+
+    img {
+        height: 80vh;
+    }
+}
+
+.agentInfosRole-role {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #f5f5ff;
+    height: 50%;
+    margin-top: 4.5rem;
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 600;
+        font-family: 'Tungsten-Bold', arial, georgia, sans-serif;
+    }
+
+    h3 {
+        font-size: 1rem;
+        margin-bottom: 6px;
+        margin-top: 12px;
+
+    }
+
+    .agentInfos-Role-Infos {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 12px;
+        margin-left: 6px;
+
+        h2 {
+            font-size: 1rem;
+            font-weight: 600;
+            font-family: 'Tungsten-Bold', arial, georgia, sans-serif;
+        }
+
+        img {
+            width: 14px;
+            height: 14px;
+            margin-left: 4px;
+
+        }
+    }
+
+}
+
+.agentInfosRole-description {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+
+    h2 {
+        text-transform: none;
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        margin-top: 22px;
+        font-size: 1rem;
+    }
+
+}
+
+.agentInfos-Skills {
+    display: flex;
+}
